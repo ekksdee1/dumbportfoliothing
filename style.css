@@ -4,14 +4,18 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.island p, td {
-    font-size: 16px;
-    color: white;
+body {
+    background-color: #ECD7BC;
 }
 
-#space p {
-    line-height: 5em;
-    font-size: 22px;
+.island p {
+    font-size: 16px;
+    color: white;
+    text-align: left;
+}
+
+p#landing {
+    text-align: center;
 }
 
 h1 {
@@ -20,15 +24,14 @@ h1 {
     padding: 0.8em;
 }
 
-img {
-    border: 3px solid black;
-}
-table {
-    width: 100%;
+h1#front {
+    padding: 0.5em 0 1em 0;
 }
 
-td {
-    width: 1%;
+img {
+    border: 3px solid black;
+    width: 100%;
+    height: auto;
 }
 
 .island h4 {
@@ -39,15 +42,7 @@ td {
 .center {
     text-align: center;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ECD7BC;
-}
-
-
+      
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -92,9 +87,24 @@ body {
     }
 
 .carousel-indicators li {
-      background-color: black;
+    background-color: black;
 }
 
 .carousel-indicators .active {
     background-color: black;
+}
+
+.btn-link, .btn-link:hover, .btn-link:active{
+    color: white;
+    text-decoration: none;
+}
+
+#linked-in-button:hover {
+    background-color: #005582;
+    color: white;
+}
+
+#linked-in-button {
+    background-color: #0A66C2;
+    border-color: #0A66C2;
 }
