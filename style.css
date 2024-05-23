@@ -4,7 +4,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.island p {
+.island p, td {
     font-size: 16px;
     color: white;
 }
@@ -19,9 +19,25 @@ h1 {
     text-align: center;
 }
 
+img {
+    width: 250px;
+    border: 3px solid black;
+}
+table {
+    width: 100%;
+}
+
+td {
+    width: 1%;
+}
+
 .island h4 {
     font-size: 24px;
     color: white;
+}
+
+.center {
+    text-align: center;
 }
 
 body {
@@ -63,7 +79,7 @@ body {
 }
 
 .island {
-    width: 50%;
+    width: 60%;
     margin: auto;
     background-color: #36454f;
     border: 3px solid black;
