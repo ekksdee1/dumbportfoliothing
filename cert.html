@@ -1,87 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Certifications - William Hendricks</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <div>
-            <nav class="navbar-expand-sm bg-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="active nav-link" href="cert.html">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                </ul>
-            </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">William Hendricks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white active" href="cert.html">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="island">
-            <h4 class="center">CompTIA Certifications</h4>
-            <img alt="CompTIA certificate" src="">
-            
-            <h4 class="center">Certiport Certifications</h4>
-            <table>
-                <tr>
-                    <td><img alt="Certiport certificate" src="src/CompThinking_cert.jpg"></td>
-                    <td><img alt="Certiport certificate" src="src/HTML&CSS_cert.jpg"></td>
-                </tr>
-                <tr>
-                    <td><img alt="Certiport certificate" src="src/JS_cert.jpg"></td>
-                    <td><img alt="Certiport certificate" src="src/NetworkSecurity_cert.jpg"></td>
-                </tr>
-                <tr>
-            </table>
+    <!-- Carousels -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h1>HTML&CSS Certificates</h1>
+                <div id="controls1" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#controls1" data-slide-to="0" class="active"></li>
+                        <li data-target="#controls1" data-slide-to="1"></li>
+                        <li data-target="#controls1" data-slide-to="2"></li>
+                        <li data-target="#controls1" data-slide-to="3"></li>
+                        <li data-target="#controls1" data-slide-to="4"></li>
+                        <li data-target="#controls1" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="src/css_cert.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/cssAnimations_cert.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/cssAccessibility_cert.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/cssFlexbox_cert.png" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/cssResponsiveDesign_cert.png" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/HTML&CSS_cert.jpg" alt="Sixth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/sass_cert.png" alt="Seventh slide">
+                        </div>
+                        
+                    </div>
+                    <a class="carousel-control-prev" href="#controls1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#controls1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
 
-            <h4 class="center">Codecademy Completion</h4>
-            <table>
-                <tr>
-                    <td>Learn CSS</td>
-                    <td><img alt="Codecademy certificate" src="src/css_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/cssFlexbox_cert.png"></td>
-                    <td>Learn CSS: Flexbox and Grid</td>
-                </tr>
-                <tr>
-                    <td>Learn CSS: Transitions and Animations</td>
-                    <td><img alt="Codecademy certificate" src="src/cssAnimations_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/cssAccessibility_cert.png"></td>
-                    <td>Learn CSS: Accessibility</td>
-                </tr>
-                <tr>
-                    <td>Learn CSS: Responsive Design</td>
-                    <td><img alt="Codecademy certificate" src="src/cssResponsiveDesign_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/react_cert.png"></td>
-                    <td>Learn React</td>
-                </tr>
-                <tr>
-                    <td>Learn Sass</td>
-                    <td><img alt="Codecademy certificate" src="src/sass_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/sassPractices_cert.png"></td>
-                    <td>Learn Sass: Best Practices</td>
-                </tr>
-                <tr>
-                    <td>Learn jQuery</td>
-                    <td><img alt="Codecademy certificate" src="src/jQuery_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/interactiveJS_cert.png"></td>
-                    <td>Building Interactive JavaScript Websites</td>
-                </tr>
-                <tr>
-                    <td>Learn Node.js</td>
-                    <td><img alt="Codecademy certificate" src="src/node.js_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/cmdLine_cert.png"></td>
-                    <td>Learn the Command Line</td>
-                </tr>
-                <tr>
-                    <td>Learn C++: Introduction</td>
-                    <td><img alt="Codecademy certificate" src="src/c++Introduction_cert.png"></td>
-                    <td><img alt="Codecademy certificate" src="src/personalSecurity_cert.png"></td>
-                    <td>Introduction to Personal Digital Security</td>
-                </tr>
-            </table>
+            <div class="col-md-6 col-sm-12">
+                <h1>JavaScript Certificates</h1>
+                <div id="controls2" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#controls2" data-slide-to="0" class="active"></li>
+                        <li data-target="#controls2" data-slide-to="1"></li>
+                        <li data-target="#controls2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="src/JS_cert.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/interactiveJS_cert.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="src/node.js_cert.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#controls2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#controls2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
         
-
-        <script src="main.js"></script>
-    </body>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>

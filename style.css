@@ -17,6 +17,7 @@
 h1 {
     font-size: 32px;
     text-align: center;
+    padding: 0.8em;
 }
 
 img {
@@ -84,4 +85,17 @@ body {
     background-color: #36454f;
     border: 3px solid black;
     padding: 2em 5em;
+}
+
+.carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+
+.carousel-indicators li {
+      background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
 }

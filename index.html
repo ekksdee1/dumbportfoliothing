@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio Homepage - William Hendricks</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <div class="navbar">
-            <a class="nav-item" href="cert.html">Certifications</a>
-            <a class="nav-item" href="contact.html">Contact</a>
-            <a class="active nav-item" href="index.html">Home</a>
-            <p id="navbar-p">William Hendricks</p>
-        </div><br><br>
-
-        <h1>About Me!</h1>
-        <div class="island">
-            
-
-            <h4>My interests</h4>
-            <p>
-                I have had a deep interest in computers since I was a child. I would always take apart and put computers back together,
-                until eventually I learned how to assemble a computer. Even the desktop I use now I personally built. I started programming 
-                in 2022, my junior year of high school. I have studied various programming languages, including HTML, CSS, Javascript, Java, 
-                and C++. I participated in Business Professionals of America's State Leadership Conference twice for web design my junior
-                and senior year.
-            </p>
-            <p>
-                Besides all things technology, I enjoy playing video games and playing my violin. I participated in the Ohio
-                Music Education Association's Solo & Ensemble competition for three years. In total, I played in two ensembles and
-                played three solos. I also regularly participate in a community orchestra called the Greater Toledo International
-                Youth Orchestra, which I joined in 2019. Additionally, I conducted undergraduate-level solar cell research at the University of Toledo's 
-                Wright Center for Photovoltaic Innovation and Commercialization for my year-long AP Research project. I presented 
-                this project at the Buckeye Science and Engineering Fair, as well as the Ohio State District Science Day competition.
-            </p><br>
-            
-            <h4>Future plans</h4>
-            <p>
-                I am a senior at Sylvania Northview HS, graduating June 2024. I plan to attend the Ohio State University
-                in Columbus, OH, where I will major in Computer Science/Engineering. I want to graduate with a four-year
-                Computer Science degree, and then land a job as a software engineer. While I am in college, I will be looking
-                for internship opportunities.
-            </p>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">William Hendricks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="cert.html">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+            </ul>
         </div>
+    </nav><br>
+    
+    <h1>About me!</h1>
+    <div class="island">
+        <p>
+            I'm William Hendricks, a soon-to-graduate high school student with a passion for all things programming. I am
+            proficient in Java, JavaScript, HTML&CSS, and know a bit of C++. I've also studied Javascript libraries such
+            such as React and jQuery. When I'm not coding, you might catch me practicing violin, conducting solar cell research, 
+            or playing video games. I plan to attend the Ohio State University in Columbus starting Fall 2024, where I will 
+            work hard to earn a four-year degree in Computer Science/Engineering.
+        </p>
+    </div>
         
         <script src="main.js"></script>
     </body>
