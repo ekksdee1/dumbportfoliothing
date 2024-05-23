@@ -6,6 +6,7 @@
 
 body {
     background-color: #ECD7BC;
+    margin-bottom: 50px;
 }
 
 .island p {
@@ -101,6 +102,7 @@ img {
 
 #linked-in-button:hover {
     background-color: #005582;
+    border-color: #005582;
     color: white;
 }
 
